@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header-menu {
+        display: flex;
+        list-style: none;
+        li {
+            a {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-decoration: none;
+                color: white;
+                border-right: 1px solid white;
+                padding-right: 6px;
+                padding-left: 5px;
+                font-size: 12px;
+                
+            }
+
+            .last {
+                border-right: none;
+            }
+        }
+    }
+
+    .search {
+        input {
+            border: none;
+            border-radius: 15px;
+        }
+    }
+}

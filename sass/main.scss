@@ -1,0 +1,18 @@
+body {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    .header-color {
+        background-color: #ba2e1f;
+        // width: 100%;
+        height: 51px;
+        display: flex;
+        align-items: center;
+    }
+    .container {
+        max-width: 960px;
+        width: 100%;
+        margin: auto;
+        @import 'header';
+    }
+}

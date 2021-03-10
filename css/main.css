@@ -1,0 +1,43 @@
+body {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+body .header-color {
+  background-color: #ba2e1f;
+  height: 51px;
+  display: flex;
+  align-items: center;
+}
+body .container {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+}
+body .container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container header .header-menu {
+  display: flex;
+  list-style: none;
+}
+body .container header .header-menu li a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid white;
+  padding-right: 6px;
+  padding-left: 5px;
+  font-size: 12px;
+}
+body .container header .header-menu li .last {
+  border-right: none;
+}
+body .container header .search input {
+  border: none;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */
