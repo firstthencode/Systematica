@@ -35,6 +35,9 @@ body .container header .header-menu li a {
 body .container header .header-menu li .last {
   border-right: none;
 }
+body .container header .header-menu li .first {
+  padding-left: 0px;
+}
 body .container header .search input {
   border: none;
   border-radius: 15px;
