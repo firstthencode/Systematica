@@ -38,9 +38,74 @@ body .container header .header-menu li .last {
 body .container header .header-menu li .first {
   padding-left: 0px;
 }
-body .container header .search input {
-  border: none;
+body .container header .search-box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 220px;
+  height: 25px;
   border-radius: 15px;
+  align-items: center;
+}
+body .container header .search-box .search-txt {
+  width: 180px;
+  border: none;
+}
+body .container header .search-box i {
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .systematica-social {
+  height: 93px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+body .container .title h1 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+body .container .title h1 span {
+  font-size: 38px;
+}
+body .container .title p {
+  padding: 0;
+  margin: 0;
+}
+body .container .social-set {
+  display: flex;
+}
+body .container .social-set li {
+  list-style: none;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: #333333;
+  transition: 0.5s;
+}
+body .container .social-set li:first-child {
+  margin-left: 0px;
+}
+body .container .social-set li i {
+  color: white;
+}
+body .container .social-set li:hover {
+  transition: 0.5s;
+  background-color: #ee802f;
 }
 
 /*# sourceMappingURL=main.css.map */
