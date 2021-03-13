@@ -1,0 +1,39 @@
+.content1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .img {
+        width: 41.6%;
+        height: 440px;
+        background-color: aqua;
+        margin-right: 48px;
+    }
+
+    .textdec {
+        width: 53.4%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        .title-con1 {
+            font-size: 86px;
+        }
+
+        .texts {
+            padding: 0;
+            margin: 0;
+            font-size: 16px;
+            word-wrap: break-word;
+            color: #666666;
+        }
+        .btn-box {
+            margin-top: 23px;
+            .btn {
+                a {
+                    text-decoration: none;
+                    color: #ba2e1f;
+                }
+            }
+        }
+    }
+}

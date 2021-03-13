@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   max-width: 1000px;
   width: 100%;
@@ -123,7 +129,7 @@ body .container .menu-block {
   display: flex;
   padding-left: 56px;
   padding-right: 56px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border-radius: 5px;
   margin-bottom: 25px;
@@ -143,6 +149,60 @@ body .container .menu-block li a:hover {
 }
 body .container .menu-block li:last-child {
   margin-right: 0px;
+}
+body .container .content1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container .content1 .img {
+  width: 41.6%;
+  height: 440px;
+  background-color: aqua;
+  margin-right: 48px;
+}
+body .container .content1 .textdec {
+  width: 53.4%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+body .container .content1 .textdec .title-con1 {
+  font-size: 86px;
+}
+body .container .content1 .textdec .texts {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  word-wrap: break-word;
+  color: #666666;
+}
+body .container .content1 .textdec .btn-box {
+  margin-top: 23px;
+}
+body .container .content1 .textdec .btn-box .btn a {
+  text-decoration: none;
+  color: #ba2e1f;
+}
+body .con2-bg {
+  background-color: #f2f2f2;
+}
+body .con2-bg .container .blocks-con2 {
+  display: flex;
+  justify-content: space-between;
+}
+body .con2-bg .container .blocks-con2 .block-content2 h1 {
+  font-size: 26px;
+  color: #333333;
+  margin-bottom: 50px;
+}
+body .con2-bg .container .blocks-con2 .block-content2 .con2-row1-img {
+  border: 1px solid red;
+  background-color: white;
+  padding: 4px;
+  width: 290px;
+  height: 140px;
 }
 
 /*# sourceMappingURL=main.css.map */
